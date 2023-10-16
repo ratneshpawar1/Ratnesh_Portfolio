@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    python,
   } from "../assets";
   
   export const navLinks = [
@@ -111,6 +112,10 @@ import {
     {
       name: "docker",
       icon: docker,
+    },
+    {
+      name: "python",
+      icon: python,
     },
   ];
   
