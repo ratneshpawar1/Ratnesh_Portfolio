@@ -7,6 +7,8 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -31,37 +33,36 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          to_name: "JavaScript Mastery",
-          from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
-          message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+    emailjs.send(
+      'service_yfy43q3', 
+      'template_92tzotc',
+      {
+        from_name: form.name,
+        to_name: 'Ratnesh',
+        from_email: form.email,
+        to_email: 'ratneshpawar00@gmail.com',
+        message: form.message
+      },
+      'RZTblw661X2HUUaPB'
       )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+      .then(() => {
+        setLoading(false);
+        alert('Thank you! I will get back to you as soon as possible.');
 
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
+        setForm({
+          name: '',
+          email: '',
+          message: '',
+        })
+      }, (error) => {
+        setLoading(false)
 
-          alert("Ahh, something went wrong. Please try again.");
-        }
-      );
+        console.log(error);
+
+        alert('Something went wrong.')
+
+      } )
+ 
   };
 
   return (
