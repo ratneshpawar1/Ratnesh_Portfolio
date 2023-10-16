@@ -17,8 +17,8 @@ import {
     docker,
     meta,
     starbucks,
-    tesla,
     shopify,
+    dh,
     carrent,
     jobit,
     tripguide,
@@ -131,7 +131,7 @@ import {
     {
       title: "Student Assistant",
       company_name: "California State University, Dominguez Hills",
-      icon: tesla,
+      icon: dh,
       iconBg: "#E6DEDD",
       date: "August 2023 - Present",
       points: [
