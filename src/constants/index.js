@@ -18,7 +18,7 @@ import {
     meta,
     starbucks,
     shopify,
-    dh,
+    tesla,
     carrent,
     jobit,
     tripguide,
@@ -118,7 +118,7 @@ import {
     {
       title: "Sofware Developer Intern",
       company_name: "iBase Electrosoft",
-      icon: starbucks,
+      //icon: starbucks,
       iconBg: "#383E56",
       date: "Jan 2022 - July 2022",
       points: [
@@ -131,8 +131,8 @@ import {
     {
       title: "Student Assistant",
       company_name: "California State University, Dominguez Hills",
-      icon: dh,
-      iconBg: "#E6DEDD",
+      //icon: tesla,
+      iconBg: "#383E56",
       date: "August 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
