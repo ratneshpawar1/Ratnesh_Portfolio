@@ -23,8 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
-    python,
-    
+  
+
   } from "../assets";
   
   export const navLinks = [
@@ -114,10 +114,6 @@ import {
       name: "docker",
       icon: docker,
     },
-    {
-      name: "python",
-      icon: python,
-    },
   ];
   
   const experiences = [
@@ -179,25 +175,29 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Colosseum",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to watch youtube videos and videos from the internet together, with features like text and audio/video chat.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
           name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "typescript",
+          color: "blue",
+        },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ratneshpawar1/colosseum",
     },
     {
       name: "Job IT",
