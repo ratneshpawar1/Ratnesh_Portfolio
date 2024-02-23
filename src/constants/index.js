@@ -15,6 +15,7 @@ import {
     git,
     figma,
     docker,
+    nextjs,
     meta,
     starbucks,
     shopify,
@@ -23,6 +24,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    thivstan,
 
   } from "../assets";
   
@@ -43,7 +45,7 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Software Engineer",
       icon: web,
     },
     {
@@ -51,7 +53,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Machine Learning Engineer",
+      title: "Problem Solver",
       icon: backend,
     },
     {
@@ -61,10 +63,6 @@ import {
   ];
   
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
     {
       name: "CSS 3",
       icon: css,
@@ -113,6 +111,11 @@ import {
       name: "python",
       icon: docker,
     },
+    {
+      name: "nextjs",
+      icon: nextjs,
+    },
+    
   ];
   
   const experiences = [
@@ -135,12 +138,23 @@ import {
       company_name: "California State University, Dominguez Hills",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "August 2023 - Present",
+      date: "January 2023 - Present",
       points: [
-        " Achieved a 95% resolution rate for IT-related issues, ensuring professors and students experienced minimal disruptions in classroom activities.",
-        "Improved website user engagement by 30% through regular updates, resulting in increased access to course materials and resources.",
-        " Contributed to a 25% increase in event attendance through effective digital content creation and online registration management, enhancing departmental event outcomes.",
-        "Automated 50% of the Departmental tasks like Workshop Registration, Student Checklist, Class Schedule, etc.",
+        " Increase user engagement with website 25% by redesigning user interface for 5+ web pages and debugging links to ensure functionality and enhance user experience",
+        " Reduce manual workload for equipment loans and registration 18% by implementing automation tools, integrations with external tools for inventory management, and identifying solutions to inventory management issues",
+        "  Boosted efficiency of classroom management system 15% by developing algorithm to analyze classroom availability data, implementing notion tables to display real-time information, and implementing solutions to availability problems",
+      ],
+    },
+    {
+      title: "Teaching Assistant",
+      company_name: "California State University, Dominguez Hills",
+      icon: starbucks,
+      iconBg: "#383E56",
+      date: "January 2024 - Present",
+      points: [
+        " Enhance graduate students’ knowledge and encourage critical thinking by developing assignments for the application of software engineering, QA and testing best practices for 70+ graduate students.",
+        "Assess and analyze student performance by developing 7+ comprehensive tests and assignments and grading tests.",
+        "Prepare students to apply QA and testing in real-world scenarios by developing and guiding collaborative projects.",
       ],
     },
 
@@ -155,14 +169,13 @@ import {
       company: "iBase Electrosoft",
       image: "https://randomuser.me/api/portraits/men/4.jpg",
     },
-//    {
-//      testimonial:
-//        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-//      name: "Chris Brown",
-//      designation: "COO",
- //     company: "DEF Corp",
- //     image: "https://randomuser.me/api/portraits/men/5.jpg",
-//    },
+    {
+      testimonial:
+        "Ratnesh not only demonstrated technical excellence but also showcased outstanding leadership qualities during our Colosseum project at CSUDH. His adept project management skills, combined with a versatile working knowledge of multiple languages such as TypeScript and React, as well as proficient API handling, made him an invaluable leader. Ratnesh's ability to navigate diverse technical aspects while steering the project with precision highlighted his leadership in orchestrating a cohesive and successful team effort.",
+      name: "Thivstan Vishal James",
+      designation: "Software Engineer",
+      image: thivstan,
+    },
 //    {
 //      testimonial:
  //       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
@@ -174,6 +187,28 @@ import {
   ];
   
   const projects = [
+    {
+      name: "RapidRecap-AI Summarizer",
+      description:
+        "RapidRecap is a fast and efficient open-source AI summarization web app. It swiftly condenses lengthy texts into concise and insightful summaries using advanced natural language processing.",
+      tags: [
+        {
+          name: "JavaScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ReactJs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ], 
+      image: shopify,
+      source_code_link: "https://github.com/ratneshpawar1/AI-Summarizer",
+    },
+
     {
       name: "Colosseum",
       description:
@@ -241,6 +276,7 @@ import {
       image: tripguide,
       source_code_link: "https://github.com/ratneshpawar1/Gesture-conrtolled-car-game",
     },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };

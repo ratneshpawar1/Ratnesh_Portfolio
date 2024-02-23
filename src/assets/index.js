@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import thivstan from "./thivstan.jpeg"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -20,6 +21,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -37,10 +39,12 @@ export {
   mobile,
   web,
   github,
+  thivstan,
   menu,
   close,
   css,
   docker,
+  nextjs,
   figma,
   git,
   html,
