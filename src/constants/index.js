@@ -1,3 +1,4 @@
+
 import {
     mobile,
     backend,
@@ -25,7 +26,6 @@ import {
     tripguide,
     threejs,
     thivstan,
-
   } from "../assets";
   
   export const navLinks = [
@@ -40,6 +40,16 @@ import {
     {
       id: "contact",
       title: "Contact",
+    },
+    {
+      id:"resume",
+      title: "Resume",
+      url:"https://drive.google.com/file/d/1X7BEIhjLfnpnEwcBZIXbNsD1V5DIS989/view?usp=sharing",
+    },
+    {
+      id:"linkedin",
+      title:"Linkedin",
+      url:"https://www.linkedin.com/in/ratnesh-pawar/",
     },
   ];
   
@@ -134,6 +144,18 @@ import {
       ],
     },
     {
+      title: "Teaching Assistant",
+      company_name: "California State University, Dominguez Hills",
+      icon: starbucks,
+      iconBg: "#383E56",
+      date: "January 2024 - May 2024",
+      points: [
+        " Enhance graduate students’ knowledge and encourage critical thinking by developing assignments for the application of software engineering, QA and testing best practices for 70+ graduate students.",
+        "Assess and analyze student performance by developing 7+ comprehensive tests and assignments and grading tests.",
+        "Prepare students to apply QA and testing in real-world scenarios by developing and guiding collaborative projects.",
+      ],
+    },
+    {
       title: "Student Assistant",
       company_name: "California State University, Dominguez Hills",
       icon: starbucks,
@@ -146,15 +168,13 @@ import {
       ],
     },
     {
-      title: "Teaching Assistant",
-      company_name: "California State University, Dominguez Hills",
-      icon: starbucks,
+      title: "Software Engineering Fellow",
+      company_name: "Headstarter AI",
+      icon: meta,
       iconBg: "#383E56",
-      date: "January 2024 - Present",
+      date: "July 2024 - Present",
       points: [
-        " Enhance graduate students’ knowledge and encourage critical thinking by developing assignments for the application of software engineering, QA and testing best practices for 70+ graduate students.",
-        "Assess and analyze student performance by developing 7+ comprehensive tests and assignments and grading tests.",
-        "Prepare students to apply QA and testing in real-world scenarios by developing and guiding collaborative projects.",
+        " Building 5 AI projects in 7 weeks and shipping them to 1000+ users, Utilizing Technologies like NextJs, Open AI, Pinecone, StripeAPI",
       ],
     },
 
